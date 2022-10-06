@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <script src="login.js"></script>
+    <link href="loginStyle.css" rel="stylesheet" type="text/css" />
+    <head>
+        <title>UAT Space Login</title>
+    </head>
+
+    <body>
+        <h1>
+            "Welcome to UAT Blast off Program"
+        </h1>
+        <br>
+        <p id="loginStatus" class="loginID">Stop! Only Authorized Personnel - - Login to Access Countdown GUI...</p>
+        <br>
+        <form id="credSubmit" onsubmit="return false">
+            First Name:     <input type="text" id="firstName" /> <br>
+            Last Name:      <input type="text" id="lastName" /> <br>
+            Badge Number:   <input type="number" id="Badge" /> <br>
+           
+            <input type="submit" onclick="checkCreds();" />
+        </form>
+    </body>
+
+</html>
